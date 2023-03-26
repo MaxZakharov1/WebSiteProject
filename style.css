@@ -1,0 +1,64 @@
+body{
+    color:rgb(114, 114, 252);
+    background-color:rgb(156, 243, 243);
+}
+
+.search{
+    display: flex;
+}
+ 
+ .header{
+    display: flex;
+    background-color: black;
+    border-radius: 35px;
+} 
+.inputText{
+    margin-top:30px;
+    height: 20px;
+}
+
+.mainFooterList{
+    font-size: 40px;
+}
+
+.freshWaterList{
+    font-size: 30px;
+    
+}
+
+.fishImg{
+    width: 600px;
+}
+
+.fishP{
+    display: flex;
+}
+
+.flagHeader{
+    width: 50px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.listHeader{
+    display:flex;
+}
+
+.contentList{
+    font-size: 15px;
+    display: flex;
+}
+
+.fishImgContent{
+    height: 500px;
+    padding-left: 300px;
+    padding-top: 200px;
+}
+
+.a{
+    background-color: rgb(114, 114, 252);
+    font-size: 40px;
+    color: black;
+    width: 100vw;
+    position: relative;
+}
