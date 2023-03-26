@@ -1,6 +1,7 @@
 body{
     color:rgb(114, 114, 252);
     background-color:rgb(156, 243, 243);
+    margin: 0;
 }
 
 .search{
@@ -59,7 +60,4 @@ body{
     background-color: rgb(114, 114, 252);
     font-size: 40px;
     color: black;
-    width: 100vw;
-    position: relative;
-    margin: 0;
 }
