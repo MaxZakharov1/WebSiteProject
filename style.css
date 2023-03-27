@@ -8,12 +8,7 @@ body{
     display: flex;
 } 
 
-.inputText{
-    margin-top:30px;
-    height: 20px;
-}
-
-.mainFooterList{
+.mainContentList{
     font-size: 40px;
 }
 
@@ -29,16 +24,6 @@ body{
     display: flex;
 }
 
-.flagHeader{
-    width: 50px;
-    padding-top: 25px;
-    padding-left: 10px;
-}
-
-.listHeader{
-    display:flex;
-}
-
 .contentDiv{
     font-size: 15px;
     display: flex;
@@ -49,7 +34,7 @@ body{
 .fishImgContent{
     height: 500px;
     padding-left: 300px;
-    padding-top: 200px; 
+    padding-top: 200px;  
 }
 
 .headerElement{
@@ -67,4 +52,8 @@ body{
 
 .fishTextContent:hover{
     color: red;
+}
+
+.saline{
+    font-size: 30px;
 }
