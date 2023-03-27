@@ -3,16 +3,11 @@ body{
     background-color:rgb(156, 243, 243);
     margin: 0;
 }
-
-.search{
-    display: flex;
-}
  
  .header{
     display: flex;
-    background-color: black;
-    border-radius: 35px;
 } 
+
 .inputText{
     margin-top:30px;
     height: 20px;
@@ -24,7 +19,6 @@ body{
 
 .freshWaterList{
     font-size: 30px;
-    
 }
 
 .fishImg{
@@ -45,19 +39,32 @@ body{
     display:flex;
 }
 
-.contentList{
+.contentDiv{
     font-size: 15px;
     display: flex;
+    border-bottom: groove;
+    border-color: aqua;
 }
 
 .fishImgContent{
     height: 500px;
     padding-left: 300px;
-    padding-top: 200px;
+    padding-top: 200px; 
 }
 
-.a{
+.headerElement{
     background-color: rgb(114, 114, 252);
     font-size: 40px;
     color: black;
+    text-align: center;
+}
+
+.footerElement{
+    text-align: center;
+    border-top: groove;
+    border-color: aqua;
+}
+
+.fishTextContent:hover{
+    color: red;
 }
