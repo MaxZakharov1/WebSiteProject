@@ -8,8 +8,9 @@ body{
     display: flex;
 } 
 
-.mainContentList{
-    font-size: 40px;
+.contentList{
+    font-size: 15px;
+    display: flex;
 }
 
 .freshWaterList{
@@ -27,33 +28,29 @@ body{
 .contentDiv{
     font-size: 15px;
     display: flex;
-    border-bottom: groove;
-    border-color: aqua;
 }
 
 .fishImgContent{
     height: 500px;
-    padding-left: 300px;
-    padding-top: 200px;  
-}
+    padding-left: 50%;
+    padding-top: 50%;  
+} 
 
 .headerElement{
-    background-color: rgb(114, 114, 252);
     font-size: 40px;
     color: black;
-    text-align: center;
+    padding-left: 10px;
+    border-bottom:groove;
 }
 
 .footerElement{
     text-align: center;
-    border-top: groove;
-    border-color: aqua;
 }
 
 .fishTextContent:hover{
     color: red;
 }
 
-.saline{
-    font-size: 30px;
+.footerTextElement:hover{
+    color: red;
 }
