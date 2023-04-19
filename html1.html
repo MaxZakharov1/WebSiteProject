@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 <body>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <header>
       <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
@@ -14,54 +14,34 @@
             <img src="https://img.freepik.com/premium-vector/fish-logo_7888-34.jpg?w=2000" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
             Все про риби
           </a>
-          <a class="btn btn-primary" href="/html.html" role="button">Солеводні</a>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Травоядні
+            </button>
+            <ul class="dropdown-menu">
+              <li ><a class = "dropdown-item fishTextContent" href="#Морський коник">Морський коник</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Хижі
+            </button>
+            <ul class="dropdown-menu">
+              <li ><a class = "dropdown-item fishTextContent" href="#Акула">Акула</a></li>
+              <li ><a class = "dropdown-item fishTextContent" href="#Тунець">Тунець</a></li>
+              <li ><a class = "dropdown-item fishTextContent" href="#Барракуда">Барракуда</a></li>
+              <li ><a class = "dropdown-item fishTextContent" href="#Меч-риба">Меч-риба</a></li>
+              <li ><a class = "dropdown-item fishTextContent" href="#Морський окунь">Морський окунь</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-primary" href="/html.html" role="button">Прісноводні</a>
         </div>
       </nav>
     </header>
 
-
-    <div class = "contentList">        
-        <div style = "margin-left: 20px;">
-            <ul>
-              <li><h1>Солеводні</h1></li>
-              <ul>
-                  <li><h1>Травоядні</h1></li>
-                  <ul>
-                      <li ><h1><a class = "fishTextContent" href="#Морський коник">Морський коник</a></h1></li>
-                  </ul>
-                  <li><h1>Хижі</h1></li>
-                  <ul>
-                      <li ><h1><a class = "fishTextContent" href="#Акула">Акула</a></h1></li>
-                      <li ><h1><a class = "fishTextContent" href="#Тунець">Тунець</a></h1></li>
-                      <li ><h1><a class = "fishTextContent" href="#Барракуда">Барракуда</a></h1></li>
-                      <li ><h1><a class = "fishTextContent" href="#Меч-риба">Меч-риба</a></h1></li>
-                      <li ><h1><a class = "fishTextContent" href="#Морський окунь">Морський окунь</a></h1></li>
-                  </ul>
-              </ul>
-          </ul>
-        </div>
-
+    <div class="text-center">
+      <h1>Солеводні</h1>
     </div>
-      <div class="card mb-12" id = "Морський коник">
-        <div class="row g-0" style="padding: 2em;">
-          <div class="col-md-6">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/FMIB_32893_Hippocampus_Comes.jpeg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-6">
-            <div class="card-body text-center">
-              <h5 class="card-title">Морський коник</h5>
-              <p class="card-text">  Морські коники названі так за свій зовнішній вигляд, верхня частина їх тіла нагадує голову коня. Хоча це риби, вони не мають лусок, а лише тонку шкіру, 
-                натягнуту між рядом кістяних пластин, що розташовані у вигляді кілець уздовж тіла. Кожний вид має характерне для нього число цих пластин. Морські коники плавають у вертикальному положенні,
-                 на відміну від горизонтального руху більшості риб. Також вони мають «корону» на голові, характерної форми для кожного виду. Вони плавають дуже повільно, переважно використовуючи спинний плавець, що швидко коливається,
-                  та нагрудні плавці, що використовуються ними для повороту. Саме через повільний рух у воді вони змушені ховатися в природних укриттях, обвиваючись навколо них за допомогою свого хвоста. Їх довгі хоботки використовуються для засмоктування їжі, 
-                  а їх очі можуть рухатися незалежно на кожній стороні голови, подібно до очей хамелеона. Харчуються вони невеликими ракоподібними, дрібною рибою та планктоном.
-                  Ці риби зазвичай мешкають в захищених місцях, таких як зарості водоростей, коралові рифи або мангрові ліси. Ці риби територіальні, самці захищають площу біля одного квадратного метру, тоді 
-                  як території самок приблизно в сто разів більші.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div class="card mb-12" id = "Акула">
         <div class="row g-0" style="padding: 2em;">
@@ -146,6 +126,27 @@
           </div>
           <div class="col-md-6">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Annual_report_%281903%29_%2814751643202%29_Sebastes_marinus.png" class="img-fluid rounded-start" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-12" id = "Морський коник">
+        <div class="row g-0" style="padding: 2em;">
+          <div class="col-md-6">
+            <img src="https://img.wallpapic.com.ua/i7982-027-011/medium/morskij-konik-pivnichnij-rif-akvarium-shpalery.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body text-center">
+              <h5 class="card-title">Морський коник</h5>
+              <p class="card-text">  Морські коники названі так за свій зовнішній вигляд, верхня частина їх тіла нагадує голову коня. Хоча це риби, вони не мають лусок, а лише тонку шкіру, 
+                натягнуту між рядом кістяних пластин, що розташовані у вигляді кілець уздовж тіла. Кожний вид має характерне для нього число цих пластин. Морські коники плавають у вертикальному положенні,
+                 на відміну від горизонтального руху більшості риб. Також вони мають «корону» на голові, характерної форми для кожного виду. Вони плавають дуже повільно, переважно використовуючи спинний плавець, що швидко коливається,
+                  та нагрудні плавці, що використовуються ними для повороту. Саме через повільний рух у воді вони змушені ховатися в природних укриттях, обвиваючись навколо них за допомогою свого хвоста. Їх довгі хоботки використовуються для засмоктування їжі, 
+                  а їх очі можуть рухатися незалежно на кожній стороні голови, подібно до очей хамелеона. Харчуються вони невеликими ракоподібними, дрібною рибою та планктоном.
+                  Ці риби зазвичай мешкають в захищених місцях, таких як зарості водоростей, коралові рифи або мангрові ліси. Ці риби територіальні, самці захищають площу біля одного квадратного метру, тоді 
+                  як території самок приблизно в сто разів більші.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
           </div>
         </div>
       </div>
